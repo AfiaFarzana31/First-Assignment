@@ -104,74 +104,44 @@ main{
     width: 1140px;
     height: 342px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 200px;
     padding-right: 8px;
     padding-left: 8px;
     text-align: center;
-    background-color: a;
      
 }
 .review-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    line-height: 5px;
-    margin: 0 auto;
-    padding-right: 8px;
-    padding-left: 8px;
+    padding: 25px;
+  width: 280px;
+  gap: 15px;
 }
+
 .review{
     width: 300px;
     height: 160px;
     align-items: center;
+    text-align: left;
     justify-content: space-around;
     background-color: #FFFFFF;
     border-radius: 14px;
     padding: 40px 30px;                
   margin: 10px ;                             
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  
-
 
 }
 
 .review-description{
-              line-height: 15px;
-              width:318.67px;
+            line-height: 15px;
+            width:318.67px;
 
 }
 
-
-.id{
-    display: flex;
-    width: 366.67px;
-    height: 46px;
-    align-items: left;
-    
-}
-
-    .review-grid {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  background-color: #e8e8e8; /* Soft gray backdrop */
-  padding: 60px 40px;
-}
-
-.review-card {
-  background-color: white;
-  border-radius: 12px;
-  padding: 25px;
-  width: 280px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  text-align: left;
-}
 
 
 .reviewer-info {
@@ -191,7 +161,6 @@ main{
     color: #b3b3b3
     line-height: 700px;
     }
-}
 
 .review-date {
   font-size: 0.85em;
