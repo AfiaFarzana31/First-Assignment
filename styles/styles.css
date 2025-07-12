@@ -166,7 +166,62 @@ main{
   color: #777;
 }
 
-   /* contact style */ 
+/* event-section style */
+
+.event-section {
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px 40px;
+  background-color: #f5f5f5;
+  margin: 100px 240px;
+  border-radius: 14px;
+  text-align: center;
+  height: 696.77px;
+  width: 1070px;
+}
+
+
+.event-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.quote {
+  font-size: 1.1em;
+  color: #000000 ;
+  opacity: 50%;
+  margin-bottom: 25px;
+}
+
+.start-btn {
+  background-color: #4E47FF;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.start-btn:hover {
+  background-color: #5549d6;
+}
+
+.event-image img {
+  max-width: 100%;
+  width: 840px;
+  height: 364.77px;
+  border-radius: 48px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  align-items: center;
+}
+
+
+ /* contact style */ 
 
 
 .contact-section {
@@ -271,6 +326,7 @@ nav{
     padding: 12px 36px;
     border-radius: 8px;
     border-style: none;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
